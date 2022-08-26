@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polyline?>
+
+<Pane id="Pane" fx:id="pane" prefHeight="720" prefWidth="680.0" stylesheets="@BasicShapes.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mousemovescircle.MouseMovesCircle">
+ <children>
+
+
+<Circle fx:id="circle" centerX="270.0" centerY="55.0" layoutX="55.0" layoutY="296.0" onMouseMoved="#movesCircle" radius="45.0" />
+      <Polyline fx:id="poLline" fill="BLACK" layoutX="317.0" layoutY="291.0" onMouseMoved="#movesCircle" points="-104.0, -94.0, 0.0, 50.0, 0.0, 50.0, -130.0, -78.0" strokeType="INSIDE" />
+
+ </children>
+ </Pane>

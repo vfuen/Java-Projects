@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Snake.fxml -->
+<!-- GUI for manipulating a Polyline, a Polygon -->
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polyline?>
+
+
+<Pane fx:id="pane" onMouseMoved="#mouseMoved" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="circlebounces.CircleController">
+   <children>
+         
+            <Circle fx:id="circle" fill="DODGERBLUE" layoutX="184.0" layoutY="184.0" onMouseMoved="#mouseMoved" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Polyline fx:id="polyline" fill="CHARTREUSE" layoutX="184.0" layoutY="124.0" points="-50.0, -40.0, -16.0, -52.0, 0.0, 60.0, -50.0, -40.0" strokeType="INSIDE" />
+         
+      
+   </children>
+</Pane>

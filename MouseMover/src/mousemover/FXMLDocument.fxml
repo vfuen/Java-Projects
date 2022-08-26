@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polyline?>
+
+<AnchorPane id="AnchorPane" prefHeight="423.0" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="mousemover.FXMLDocumentController">
+   <children>
+      <Circle fx:id="circle" layoutX="154.0" layoutY="224.0" onMouseDragged="#moveCircleWithMouse" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polyline fx:id="polyLine" fill="BLACK" layoutX="154.0" layoutY="164.0" onMouseDragged="#movePolylineWithMouse" points="-24.0, 15.0, 0.0, 60.0, 0.0, 60.0, -34.0, 25.0" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
